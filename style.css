@@ -1,0 +1,17 @@
+.hover-rotate {
+  overflow: hidden;
+  margin: 10px;
+  min-width: 440px;
+  max-width: 520px;
+  width: 100%;
+}
+
+.hover-rotate img {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.hover-rotate:hover img {
+  transform: scale(1.4) rotate(5deg);
+}
